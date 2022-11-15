@@ -9,6 +9,7 @@ import (
 	"net/http"
 )
 
+// NotFound is a convenience handler for catching unknown paths and log the path from the request.
 func NotFound(log *zap.SugaredLogger) http.HandlerFunc {
 	return func(w http.ResponseWriter, r *http.Request) {
 		log.Infof("path not found %s", r.URL.Path)
