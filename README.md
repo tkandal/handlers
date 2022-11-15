@@ -1,3 +1,3 @@
 # handlers
 
-Some convenience handler for handling errors, f.ex. unknown paths.
+Some convenience handlers for handling errors, f.ex. unknown paths.
